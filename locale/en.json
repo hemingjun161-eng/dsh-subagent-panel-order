@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Subagent list order",
+    "description": "Adds an order switch at the bottom of the session header's subagent list popup, and widens that popup's scrollbar. Open the subagent count next to the session title; the popup's last row offers \"In order\" and \"Reversed\", and the choice is remembered for every later session. Reversed shows the last entry first, so the rows keep their shipped content, metrics and actions. Only that popup is restyled: its scrollbar becomes a 16px, high-contrast, rounded bar with a 12px thumb, easier to see and drag. Turning the plugin off restores the shipped order and scrollbar."
+  }
+}
