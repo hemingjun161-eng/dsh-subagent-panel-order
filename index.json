@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH interface plugins",
+    "zh": "DSH 界面插件"
+  },
+  "description": {
+    "en": "Small interface bundles for the DeepSeek Harness Web UI.",
+    "zh": "给 DeepSeek Harness Web 界面用的小插件。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-subagent-panel-order",
+      "title": {
+        "en": "Subagent list order",
+        "zh": "子智能体列表排序"
+      },
+      "description": {
+        "en": "Adds an order switch at the bottom of the session header's subagent list popup, and widens that popup's scrollbar. Open the subagent count next to the session title; the popup's last row offers \"In order\" and \"Reversed\", and the choice is remembered for every later session. Reversed shows the last entry first, so the rows keep their shipped content, metrics and actions. Only that popup is restyled: its scrollbar becomes a 16px, high-contrast, rounded bar with a 12px thumb, easier to see and drag. Turning the plugin off restores the shipped order and scrollbar.",
+        "zh": "在会话标题旁「子智能体」列表弹层的底部加一行排序开关，并把该弹层的滚动条加宽加重。点击会话标题旁显示子智能体数量的按钮打开弹层，最后一行的「正序 / 倒序」即可切换排序，选择会记住并用于之后所有会话。倒序时最后一项显示在最上面，每行的名称、用量和操作保持不变。只有这一个弹层被改样式：滚动条变成 16px、对比度更高、可拖动的圆角滚动条（滑块 12px）。关闭插件即恢复原有顺序和滚动条。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8cGF0aCBkPSJNMTIgMjYuNVYxMC41IiBzdHJva2U9IiM1QjY0NzIiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTYuNSAxNkwxMiAxMC41TDE3LjUgMTYiIHN0cm9rZT0iIzVCNjQ3MiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMjQgOS41VjI1LjUiIHN0cm9rZT0iIzNCNkZFMCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTguNSAyMEwyNCAyNS41TDI5LjUgMjAiIHN0cm9rZT0iIzNCNkZFMCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
+      "repository": {
+        "url": "https://github.com/hemingjun161-eng/dsh-subagent-panel-order"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "dsh-bundle",
+          "deepseek-harness",
+          "subagent",
+          "scrollbar",
+          "ui"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795766702,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/hemingjun161-eng/dsh-subagent-panel-order",
+            "commit": "41468d4970d731ba0e8b2af845bd81a8a549c1db"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
